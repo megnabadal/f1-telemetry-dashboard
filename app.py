@@ -12,6 +12,8 @@ from plotly.subplots import make_subplots
 
 APP_TITLE = "Formula 1 Telemetry Dashboard"
 CACHE_DIR = Path("cache")
+CACHE_DIR.mkdir(exist_ok=True)
+
 
 
 st.set_page_config(
